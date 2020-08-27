@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+.wrapper {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+}
+.div_window {
+    position: fixed;
+    width: 70%;
+    height: 85vh;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.div_game {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bg {
+    z-index: 1;
+    position: absolute;
+    height: 700px;
+}
+canvas {
+    position: relative;
+    z-index: 2;
+}
